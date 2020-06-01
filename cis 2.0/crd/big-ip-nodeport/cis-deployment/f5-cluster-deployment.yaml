@@ -30,6 +30,7 @@ spec:
           args: 
             - "--bigip-username=$(BIGIP_USERNAME)"
             - "--bigip-password=$(BIGIP_PASSWORD)"
+            #Internal BIG-IP interface
             - "--bigip-url=10.128.0.16:8443"
             - "--bigip-partition=k8s"
             - "--namespace=default"
